@@ -779,12 +779,12 @@ color: #ef7f4d;
 
 
 } 
-   
-/* 
+ 
 #portfolio{
   display: flex;
   background-color: #f5f9fc;
   text-align: center;
+  padding-left: 40px;
 }
 .portfoliocontent h2{
   justify-content: center;
@@ -835,8 +835,7 @@ color: #ef7f4d;
   padding-bottom: 30px;
   margin: 0 15px 15px 0;
   padding: 10px 20px;
-  /* border: none; */
-/*   
+  /* border: none; */ 
 }
 .porto-button button{
   margin-left: 15px;
@@ -926,10 +925,10 @@ color: #ef7f4d;
   color:#f1f7fb;
   background-color: #428BCA;
 }
- */
+ 
 
 
-/* @media (min-width:768px) {
+ @media (min-width:768px) {
   #container{
    
     padding-left: 15px;
@@ -988,7 +987,7 @@ color: #ef7f4d;
     margin: 0 15px 15px 0;
     padding: 10px 20px;
     /* border: none; */
-/*     
+     
   }
   .porto-button button{
     margin-left: 15px;
@@ -1079,14 +1078,13 @@ color: #ef7f4d;
     background-color: #428BCA;
   }
   
-}  */
+} 
 
 
 
 @media (min-width:1024px) {
   .container{
-    width: 1200px;
-    padding-left: 15px;
+    padding-left: 25px;
     padding-right: 15px;
     margin-left: 15px;
     margin-right: 15px;
@@ -1094,6 +1092,7 @@ color: #ef7f4d;
   #portfolio{
     display: flex;
     background-color: #f5f9fc;
+    padding-left: 80px;
 }
 .portfoliocontent h2{
   font-size: 24px;
@@ -1106,14 +1105,20 @@ color: #ef7f4d;
   font-family: "Raleway", sans-serif;
 } 
 .portfoliocontent h1{
-  padding-bottom: 15px;
-  margin-bottom: 15px;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
   position: relative;
   font-size: 32px;
   font-weight: 700;
   color: #4e4039;
   text-align: center;
   font-family: "Open Sans", sans-serif;
+}
+.portfoliocontent hr{
+  position: absolute;
+  width: 100px;
+  left: 47%;
+  border: solid 1px orange;
 }
 .portfolio-list  {
        display: flex;
@@ -1134,8 +1139,9 @@ color: #ef7f4d;
  .porto-button{
     text-align: center;
     padding-bottom: 30px;
-    margin: 0 15px 15px 0;
+    margin: 10px 15px 15px 0;
     padding: 10px 20px;
+    line-height: 20px;
     /* border: none; */
     
  }
